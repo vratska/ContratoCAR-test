@@ -7,12 +7,12 @@ function handleSubmit () {
     const comandatariocpf = document.getElementById('comandatariocpf').value;
     const comandatarioenderaco = document.getElementById('comandatarioenderaco').value;
     
-    sessionStorage.setItem("COMODANTE", comodante);
-    sessionStorage.setItem("COMODANTECPF", comodantecpf);
-    sessionStorage.setItem("COMODANTEENDERECO", comodanteenderaco);
-    sessionStorage.setItem("COMANDATARIO", comandatario);
-    sessionStorage.setItem("COMANDATARIOCPF", comandatariocpf);
-    sessionStorage.setItem("COMANDATARIOENDERECO", comandatarioenderaco);
+    localStorage.setItem("COMODANTE", comodante);
+    localStorage.setItem("COMODANTECPF", comodantecpf);
+    localStorage.setItem("COMODANTEENDERECO", comodanteenderaco);
+    localStorage.setItem("COMANDATARIO", comandatario);
+    localStorage.setItem("COMANDATARIOCPF", comandatariocpf);
+    localStorage.setItem("COMANDATARIOENDERECO", comandatarioenderaco);
 
     return;
 }
