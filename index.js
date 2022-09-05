@@ -6,7 +6,16 @@ function handleSubmit () {
     const comandatario = document.getElementById('comandatario').value;
     const comandatariocpf = document.getElementById('comandatariocpf').value;
     const comandatarioendereco = document.getElementById('comandatarioendereco').value;
-    
+    const terrahec = document.getElementById('terrahec').value;
+    const terraendereco = document.getElementById('terraendereco').value;
+    const car = document.getElementById('car').value;
+    const conjuge = document.getElementById('conjuge').value;
+    const tempoterra = document.getElementById('tempoterra').value;
+    const tempocontrato = document.getElementById('tempocontrato').value;
+    const dia = document.getElementById('dia').value;
+    const mes = document.getElementById('mes').value;
+    const ano = document.getElementById('ano').value;
+
     // localStorage.setItem("COMODANTE", comodante);
     // localStorage.setItem("COMODANTECPF", comodantecpf);
     // localStorage.setItem("COMODANTEENDERECO", comodanteenderaco);
