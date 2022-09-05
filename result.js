@@ -1,6 +1,7 @@
 window.addEventListener('load', () => {
     const params = (new URL(document.location)).searchParams;
     const comodante = params.get('comodante');
+    const comodante1 = params.get('comodante');
     const comodantecpf = params.get('comodantecpf');
     const comodanteendereco = params.get('comodanteendereco');
     const comandatario = params.get('comandatario');
@@ -24,6 +25,7 @@ window.addEventListener('load', () => {
     // const comandatarioenderaco = sessionStorage.getItem("COMANDATARIOENDERECO");
 
     document.getElementById('result-comodante').innerHTML = comodante;
+    document.getElementById('result-comodante1').innerHTML = comodante1;
     document.getElementById('result-comodantecpf').innerHTML = comodantecpf;
     document.getElementById('result-comodanteendereco').innerHTML = comodanteendereco;
     document.getElementById('result-comandatario').innerHTML = comandatario;
